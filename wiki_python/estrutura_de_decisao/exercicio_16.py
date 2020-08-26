@@ -10,7 +10,10 @@ preco_lata = 80
 litros_tinta = tamanho / cobertura
 qtd_latas = 0
 
-if litros_tinta % lata == 0:
+if litros_tinta < lata:
+    qtd_latas = 1
+    print(qtd_latas)
+elif litros_tinta % lata == 0:
     qtd_latas = int(litros_tinta / lata)
     print(qtd_latas)
 else:
