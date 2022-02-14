@@ -3,7 +3,7 @@
 # A cobertura da tinta é de 1 litro para cada 3 metros quadrados e a tinta é
 # vendida em latas de 18 litros, que custam R$ 80,00.
 
-tamanho = float(input('Digite o tamanho da área a ser pintada: '))
+tamanho = float(input("Digite o tamanho da área a ser pintada: "))
 lata = 18
 cobertura = 3
 preco_lata = 80

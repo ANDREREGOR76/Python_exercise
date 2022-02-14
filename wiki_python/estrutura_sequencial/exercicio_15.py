@@ -5,17 +5,16 @@
 # e. calcula os descontos e o salário líquido
 
 
-ganho_hora = float(input('Digite quanto você ganha por hora: '))
-horas_trabalhadas = int(
-    input('Digite a quantidade de horas que você trabalhou: '))
+ganho_hora = float(input("Digite quanto você ganha por hora: "))
+horas_trabalhadas = int(input("Digite a quantidade de horas que você trabalhou: "))
 sal_bruto = ganho_hora * horas_trabalhadas
-imp_renda = sal_bruto * (11/100)
-inss = sal_bruto * (8/100)
-sindicato = sal_bruto * (5/100)
+imp_renda = sal_bruto * (11 / 100)
+inss = sal_bruto * (8 / 100)
+sindicato = sal_bruto * (5 / 100)
 sal_liq = sal_bruto - (imp_renda + inss + sindicato)
 
-print('+ Salário Bruto: R${:.2f}'.format(sal_bruto))
-print('- IR (11%): R${:.2f}'.format(imp_renda))
-print('- INSS (8%): R${:.2f}'.format(inss))
-print('- Sindicato (5%): R${:.2f}'.format(sindicato))
-print('= Salário Líquido: R${:.2f}'.format(sal_liq))
+print("+ Salário Bruto: R${:.2f}".format(sal_bruto))
+print("- IR (11%): R${:.2f}".format(imp_renda))
+print("- INSS (8%): R${:.2f}".format(inss))
+print("- Sindicato (5%): R${:.2f}".format(sindicato))
+print("= Salário Líquido: R${:.2f}".format(sal_liq))

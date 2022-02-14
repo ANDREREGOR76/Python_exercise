@@ -1,3 +1,3 @@
-altura = float(input('Digite sua altura: '))
+altura = float(input("Digite sua altura: "))
 peso_ideal = (72.7 * altura) - 58
 print(peso_ideal)
